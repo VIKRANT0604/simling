@@ -10,7 +10,7 @@ class Userbot:
     def __init__(self):
         self.one = (
             Client(
-                name="Annie1",
+                name="˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙1",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING1),
@@ -21,7 +21,7 @@ class Userbot:
         )
         self.two = (
             Client(
-                name="Annie2",
+                name="˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙2",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING2),
@@ -32,7 +32,7 @@ class Userbot:
         )
         self.three = (
             Client(
-                name="Annie3",
+                name="˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙3",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING3),
@@ -43,7 +43,7 @@ class Userbot:
         )
         self.four = (
             Client(
-                name="Annie4",
+                name="˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙4",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING4),
@@ -54,7 +54,7 @@ class Userbot:
         )
         self.five = (
             Client(
-                name="Annie5",
+                name="˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙5",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING5),
@@ -65,20 +65,20 @@ class Userbot:
         )
 
     async def start(self):
-        LOGGER(__name__).info("Annie's Assistant starting...")
+        LOGGER(__name__).info("Assistant starting...")
         if self.one:
             await self.one.start()
             try:
-                await self.one.join_chat("Dora_hub")
-                await self.one.join_chat("loggchk")
-                await self.one.join_chat("FlashXSupport")
-                await self.one.join_chat("FlashXNetwork")
-                await self.one.join_chat("JARVIS_V_SUPPORT")
+                await self.one.join_chat("SYNTAX_WORLD")
+                await self.one.join_chat("SYNTAX_WORLD")
+                await self.one.join_chat("SYNTAX_WORLD")
+                await self.one.join_chat("SYNTAX_WORLD")
+                await self.one.join_chat("SYNTAX_WORLD")
             except Exception as e:
                 LOGGER(__name__).warning(f"Assistant 1 failed to join chats: {e}")
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Annie's Assistant 1 Started")
+                await self.one.send_message(config.LOGGER_ID, "˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙Assistant 1 Started")
             except Exception as e:
                 LOGGER(__name__).error(
                     f"Assistant Account 1 failed to access the log group: {e}"
@@ -94,16 +94,16 @@ class Userbot:
         if self.two:
             await self.two.start()
             try:
-                await self.two.join_chat("Dora_hub")
-                await self.two.join_chat("loggchk")
-                await self.two.join_chat("FlashXSupport")
-                await self.two.join_chat("FlashXNetwork")
-                await self.two.join_chat("JARVIS_V_SUPPORT")
+                await self.two.join_chat("SYNTAX_WORLD")
+                await self.two.join_chat("SYNTAX_WORLD")
+                await self.two.join_chat("SYNTAX_WORLD")
+                await self.two.join_chat("SYNTAX_WORLD")
+                await self.two.join_chat("SYNTAX_WORLD")
             except Exception as e:
                 LOGGER(__name__).warning(f"Assistant 2 failed to join chats: {e}")
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Annie's Assistant 2 Started")
+                await self.two.send_message(config.LOGGER_ID, "˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙Assistant 2 Started")
             except Exception as e:
                 LOGGER(__name__).error(
                     f"Assistant Account 2 failed to access the log group: {e}"
@@ -119,16 +119,16 @@ class Userbot:
         if self.three:
             await self.three.start()
             try:
-                await self.three.join_chat("Dora_hub")
-                await self.three.join_chat("loggchk")
-                await self.three.join_chat("FlashXSupport")
-                await self.three.join_chat("FlashXNetwork")
-                await self.three.join_chat("JARVIS_V_SUPPORT")
+                await self.three.join_chat("SYNTAX_WORLD")
+                await self.three.join_chat("SYNTAX_WORLD")
+                await self.three.join_chat("SYNTAX_WORLD")
+                await self.three.join_chat("SYNTAX_WORLD")
+                await self.three.join_chat("SYNTAX_WORLD")
             except Exception as e:
                 LOGGER(__name__).warning(f"Assistant 3 failed to join chats: {e}")
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Annie's Assistant 3 Started")
+                await self.three.send_message(config.LOGGER_ID, "˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙Assistant 3 Started")
             except Exception as e:
                 LOGGER(__name__).error(
                     f"Assistant Account 3 failed to access the log group: {e}"
@@ -144,16 +144,16 @@ class Userbot:
         if self.four:
             await self.four.start()
             try:
-                await self.four.join_chat("Dora_hub")
-                await self.four.join_chat("loggchk")
-                await self.four.join_chat("FlashXSupport")
-                await self.four.join_chat("FlashXNetwork")
-                await self.four.join_chat("JARVIS_V_SUPPORT")
+                await self.four.join_chat("SYNTAX_WORLD")
+                await self.four.join_chat("SYNTAX_WORLD")
+                await self.four.join_chat("SYNTAX_WORLD")
+                await self.four.join_chat("SYNTAX_WORLD")
+                await self.four.join_chat("SYNTAX_WORLD")
             except Exception as e:
                 LOGGER(__name__).warning(f"Assistant 4 failed to join chats: {e}")
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "Annie's Assistant 4 Started")
+                await self.four.send_message(config.LOGGER_ID, "˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙Assistant 4 Started")
             except Exception as e:
                 LOGGER(__name__).error(
                     f"Assistant Account 4 failed to access the log group: {e}"
@@ -169,16 +169,16 @@ class Userbot:
         if self.five:
             await self.five.start()
             try:
-                await self.five.join_chat("Dora_hub")
-                await self.five.join_chat("loggchk")
-                await self.five.join_chat("FlashXSupport")
-                await self.five.join_chat("FlashXNetwork")
-                await self.five.join_chat("JARVIS_V_SUPPORT")
+                await self.five.join_chat("SYNTAX_WORLD")
+                await self.five.join_chat("SYNTAX_WORLD")
+                await self.five.join_chat("SYNTAX_WORLD")
+                await self.five.join_chat("SYNTAX_WORLD")
+                await self.five.join_chat("SYNTAX_WORLD")
             except Exception as e:
                 LOGGER(__name__).warning(f"Assistant 5 failed to join chats: {e}")
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "Annie's Assistant 5 Started")
+                await self.five.send_message(config.LOGGER_ID, "˹ ꜱᴍɪʟɪɴɢ ꭙ ᴍᴜꜱɪᴄ ᴺᴼ ᴬᴰˢ♡゙Assistant 5 Started")
             except Exception as e:
                 LOGGER(__name__).error(
                     f"Assistant Account 5 failed to access the log group: {e}"
@@ -192,7 +192,7 @@ class Userbot:
             LOGGER(__name__).info(f"Assistant 5 started as {self.five.name}")
 
     async def stop(self):
-        LOGGER(__name__).info("Annie's assistants stopping...")
+        LOGGER(__name__).info("Assistants stopping...")
         if self.one:
             try:
                 await self.one.stop()

@@ -18,7 +18,7 @@ from PIL import Image
 
 from ANNIEMUSIC import app
  
-BOT_USERNAME = "AnnieMusicRobot"
+BOT_USERNAME = "Smiling_music_robot"
 
 
 def stylize_text(text):
