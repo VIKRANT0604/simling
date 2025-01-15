@@ -44,7 +44,7 @@ async def report_bug(_, msg: Message):
             ),
         )
         await app.send_message(
-            -1002014167331,
+            -1001929010431,
             bug_report,
             reply_markup=InlineKeyboardMarkup(
                 [
