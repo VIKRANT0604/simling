@@ -13,7 +13,7 @@ def extract_content(response):
         return response.get('content', 'No content available.')
     return str(response)
 
-@app.on_message(filters.command(["yntax"], prefixes=["s", "S"]))
+@app.on_message(filters.command(["miling"], prefixes=["s", "S"]))
 async def gpt_handler(client: Client, message: Message):
     try:
         await client.send_chat_action(message.chat.id, ChatAction.TYPING)
