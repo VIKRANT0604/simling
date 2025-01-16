@@ -13,14 +13,14 @@ def extract_content(response):
         return response.get('content', 'No content available.')
     return str(response)
 
-@app.on_message(filters.command(["miling"], prefixes=["s", "S"]))
+@app.on_message(filters.command(["imiling"], prefixes=["s", "S"]))
 async def gpt_handler(client: Client, message: Message):
     try:
         await client.send_chat_action(message.chat.id, ChatAction.TYPING)
         name = message.from_user.first_name
 
         if len(message.command) < 2:
-            await message.reply_text(f"Hello {name}, I am simily. How can I help you today?")
+            await message.reply_text(f"Hello {name}, I am similing. How can I help you today?")
             return
 
         query = message.text.split(' ', 1)[1]
